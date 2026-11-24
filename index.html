@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>حسابات سيد حسين هادي الغرابي</title>
+    <title>حسابات ابو يزن الكهربائي</title>
     <!-- استدعاء أحدث آيكونات المنصات الاجتماعية -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
@@ -72,6 +72,15 @@
             font-weight: bold;
             text-shadow: 0 0 10px rgba(250, 204, 21, 0.5);
         }
+        .banner-sub-badge {
+            margin-top: 6px;
+            color: #e9d5ff;
+            font-size: 0.82rem;
+            font-weight: bold;
+            line-height: 1.5;
+            direction: ltr;
+            unicode-bidi: isolate;
+        }
 
         /* شبكة الكروت (2 في كل سطر) */
         .grid-container {
@@ -99,6 +108,7 @@
         .border-pink   { border: 2px solid #ec4899; box-shadow: 0 0 12px rgba(236, 72, 153, 0.3); }
         .border-yellow { border: 2px solid #eab308; box-shadow: 0 0 12px rgba(234, 179, 8, 0.3); }
         .border-cyan   { border: 2px solid #06b6d4; box-shadow: 0 0 12px rgba(6, 182, 212, 0.3); }
+        .border-purple { border: 2px solid #a855f7; box-shadow: 0 0 14px rgba(168, 85, 247, 0.35); }
 
         /* رأس الكارت الدائري مع الشعار والاسم */
         .card-header {
@@ -127,6 +137,7 @@
         .bg-tt { background: #000; border: 1px solid #333; }
         .bg-tw { background: #000; border: 1px solid #333; }
         .bg-ph { background: #16a34a; }
+        .bg-cv { background: linear-gradient(135deg, #9333ea, #ec4899); }
 
         .card-title {
             font-size: 0.95rem;
@@ -190,6 +201,28 @@
             white-space: nowrap;
         }
 
+        /* قسم السيرة الذاتية */
+        .bio-box {
+            background: #11131f;
+            border-radius: 10px;
+            padding: 10px 12px;
+            color: #f8fafc;
+            font-size: 0.85rem;
+            line-height: 1.75;
+        }
+        .bio-role {
+            color: #facc15;
+            font-weight: bold;
+            margin-bottom: 4px;
+        }
+        .bio-list {
+            list-style: none;
+            padding-right: 4px;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
         /* تذييل الأسفل */
         .footer-bar {
             display: flex;
@@ -220,7 +253,8 @@
         <div class="side-note-right">↖ كل حساب في مكانه ♡</div>
         <div class="banner-title">★ أهلاً بك ★</div>
         <div class="banner-sub">هذه معلومات لحسابات التواصل الاجتماعي للسيد</div>
-        <div class="banner-name">✨ [ "سيد حسين هادي الغرابي" ] ✨</div>
+        <div class="banner-name">✨ [ "ابو يزن الكهربائي" ] ✨</div>
+        <div class="banner-sub-badge">(▂▃▅▆▇ 🌟 الهاشمي🌟 ▇▆▅▃▂)</div>
     </div>
 
     <!-- شبكة الكروت الكبيرة -->
@@ -367,7 +401,7 @@
         </div>
 
         <!-- سناب -->
-        <div class="card border-yellow">
+        <div class="card border-yellow full-width">
             <div class="card-header">
                 <div class="circle-icon bg-sc"><i class="fa-brands fa-snapchat"></i></div>
                 <div class="card-title">سناب</div>
@@ -383,6 +417,24 @@
                     <span class="item-val">has68900</span>
                     <button class="btn-copy-small">نسخ</button>
                 </div>
+            </div>
+        </div>
+
+        <!-- سيرة ذاتية -->
+        <div class="card border-purple full-width">
+            <div class="card-header">
+                <div class="circle-icon bg-cv"><i class="fa-solid fa-id-card"></i></div>
+                <div class="card-title">سيرة ذاتية</div>
+            </div>
+            <div class="bio-box">
+                <div class="bio-role">المهنة :م</div>
+                <ul class="bio-list">
+                    <li>١.كهربائي</li>
+                    <li>٢.ديكورات مغربي</li>
+                    <li>٣.جمسن بورد</li>
+                    <li>٤ .فني تبريد</li>
+                    <li>٥.سباك</li>
+                </ul>
             </div>
         </div>
 
